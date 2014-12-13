@@ -1,12 +1,12 @@
 Package.describe({
-  name: 'joncursi:socket-io-client',
+  name: 'socket-io-client',
   summary: 'A Meteor package wrapper for the official socket.io-client',
   version: '0.1.2',
   git: 'https://github.com/joncursi/socket-io-client'
 });
 
 Npm.depends({
-  'socket.io-client': '1.2.0'
+  'socket.io-client': '0.9.17'
 });
 
 Package.onUse(function (api, where) {
